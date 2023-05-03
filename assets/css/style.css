@@ -1,0 +1,80 @@
+#map {
+  width: 50%;
+  height: 100%;
+  float:right;
+}
+
+#form {    
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+}
+      
+html, body {
+  background-image: linear-gradient(330deg, #505467 0, #1f3259 50%, #00154b 100%);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.divform{
+  justify-content: center;
+  display:flex;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+label{
+  font-size: large;
+  color: white;
+  display: flex;
+  margin-block-start: 10px;
+  margin-inline: 20px;
+}
+
+#nome{
+  margin-inline-end: 10px;
+}
+
+#btn-salvar{
+display: flex;
+margin-top: 10px;
+margin-inline-start: 50%;
+}
+
+.jumbotron{
+  background-image: radial-gradient(circle at 50% -20.71%, #b4e1d6 0, #b2e1da 6.25%, #b0e1de 12.5%, #afe1e2 18.75%, #afe1e6 25%, #afe0e9 31.25%, #b0e0ed 37.5%, #b2dff0 43.75%, #b5def2 50%, #b8ddf4 56.25%, #bcdcf6 62.5%, #c0dbf7 68.75%, #c5d9f7 75%, #cad8f7 81.25%, #cfd7f6 87.5%, #d4d5f5 93.75%, #d9d4f4 100%);
+}
+
+.navbar{
+  background-image: linear-gradient(330deg, #505467 0, #1f3259 50%, #00154b 100%);
+  
+}
+
+#h1-events{
+  font-size: x-large;
+  color: #afe0e9;
+}
+
+#ul-events{
+  color: #afe0e9;
+}
+
+#li-events{
+  color: #afe0e9;
+}
+
+strong{
+  font-size: large;
+  color: #afe0e9;
+}
+
+#linha{
+  border-color: #afe0e9
+}
+
+#ajuda{
+  font-style: italic;
+  margin-top: 100px;
+  color:#b2dff0
+}
